@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Job Board</title>
+        <link href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    </head>
+    <body>
+        <h1>Job Board</h1>
+        <form action='/job_board'>
+            <div class='form-group'>
+                <label for='title'>Title your post:</label>
+                <input type='text' name='title' placeholder='Your title goes here'>
+            </div>
+            <div class='form-group'>
+                <label for='description'>Give your post a description:</label>
+                <textarea type='text' name='description' placeholder='Your post content goes here' cols='100' rows='5'></textarea>
+            </div>
+            <div class='form-group'>
+                <label for='name'>Enter your name:</label>
+                <input type='text' name='name' placeholder='Your name goes here'>
+            </div>
+            <div class='form-group'>
+                <label for='email'>Enter your email:</label>
+                <input type='text' name='email' placeholder='Your email goes here'>
+            </div>
+            <div class='form-group'>
+                <label for='phone_number'>Enter your phone number:</label>
+                <input type='text' name='phone_number' placeholder='Your phone number goes here'>
+            </div>
+            <button type='submit' class='btn btn-danger'>Submit</button>
+        </form>
+
+    </body>
+</html>
